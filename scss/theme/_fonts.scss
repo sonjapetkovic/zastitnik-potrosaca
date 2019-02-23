@@ -1,2 +1,24 @@
 
 
+//Font Proxima Nova(regular, bold)
+//$font-proximanova-regular:
+//$font-proximanova-bold;
+
+//Font Adelle(bold)
+//$font-adelle-bold;
+
+
+//Font Helvetica Nue(regular,bold)
+//$font-helveticanue-regular;
+//$font-helveticanue-bold;
+
+//Font Ubuntu(regular,medium i bold)
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&subset=latin-ext');
+
+$font-ubuntu: 'Ubuntu', sans-serif;
+
+
+
+$font-weight-regular:400;
+$font-weight-bold:700;
+$font-weight-extrabold:800;

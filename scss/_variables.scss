@@ -14,7 +14,7 @@ $gray-500: #adb5bd !default;
 $gray-600: #6c757d !default;
 $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
-$gray-900: #212529 !default;
+$gray-900: #363739 !default;
 $black:    #000 !default;
 
 $grays: () !default;
@@ -38,10 +38,10 @@ $blue:    #007bff !default;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #e83e8c !default;
-$red:     #dc3545 !default;
+$red:     #E2322B !default;
 $orange:  #fd7e14 !default;
 $yellow:  #ffc107 !default;
-$green:   #28a745 !default;
+$green:   #9DC72D !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
 
@@ -66,7 +66,7 @@ $colors: map-merge(
   $colors
 );
 
-$primary:       $blue !default;
+$primary:       $gray-900 !default;
 $secondary:     $gray-600 !default;
 $success:       $green !default;
 $info:          $cyan !default;
@@ -148,8 +148,10 @@ $sizes: () !default;
 $sizes: map-merge(
   (
     25: 25%,
+    20:20%,
     50: 50%,
     75: 75%,
+    80:80%,
     100: 100%,
     auto: auto
   ),
@@ -172,7 +174,7 @@ $body-color:                $gray-900 !default;
 $link-color:                              theme-color("primary") !default;
 $link-decoration:                         none !default;
 $link-hover-color:                        darken($link-color, 15%) !default;
-$link-hover-decoration:                   underline !default;
+$link-hover-decoration:                   none !default;
 // Darken percentage for links with `.text-*` class (e.g. `.text-success`)
 $emphasized-link-hover-darken-percentage: 15% !default;
 
@@ -190,10 +192,12 @@ $paragraph-margin-bottom:   1rem !default;
 
 $grid-breakpoints: (
   xs: 0,
+  xm:450px,
   sm: 576px,
   md: 768px,
   lg: 992px,
-  xl: 1200px
+  xl: 1200px,
+  xxl:1500px
 ) !default;
 
 @include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
@@ -205,10 +209,11 @@ $grid-breakpoints: (
 // Define the maximum width of `.container` for different screen sizes.
 
 $container-max-widths: (
-  sm: 540px,
+ // sm: 540px,
   md: 720px,
   lg: 960px,
-  xl: 1140px
+  xl: 1140px,
+  xxl:1401px
 ) !default;
 
 @include _assert-ascending($container-max-widths, "$container-max-widths");

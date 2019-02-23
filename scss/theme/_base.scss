@@ -3,6 +3,11 @@ html{
     font-size: 14px;
 }
 
+body{
+    font-family: $font-ubuntu;
+    font-weight: $font-weight-regular;
+}
+
 img{
     max-width: 100%;
 }
@@ -44,6 +49,24 @@ img{
         top:0;
         left: 0;
         width: 100%;
+       
     }
 }
-
+.red-line:after{
+    content: "";
+    height: 3px;
+    width: 57px;
+    background-color: #E2322B;
+    display: block;
+}
+.article-titles-spice{
+    height: 92px;
+    width: 368px;
+}
+.green-quotation-marks:before{
+    content: "";
+    display: block;
+    color:$green;
+    height: 20px;
+    width: 20px;
+}
