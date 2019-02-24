@@ -50,6 +50,12 @@ img {
   height: 20px;
   width: 20px; }
 
+.box-style {
+  border-radius: 3px;
+  background-color: #FFFFFF;
+  box-shadow: 0 15px 14px -10px rgba(88, 112, 148, 0.31);
+  padding: 10px 18px; }
+
 /* Buzz Out */
 @-webkit-keyframes buzz {
   10% {
