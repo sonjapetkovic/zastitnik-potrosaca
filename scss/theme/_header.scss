@@ -7,7 +7,15 @@ header{
     
     .navbar-brand{
         max-width: 50%;
+        
     }
+    .navbar-nav li:hover,
+        .navbar-nav li:active{
+            background: transparent;
+            border-bottom: 4px solid red;
+            transition: 0.5s linear;
+        }
+        
     
     .navbar-toggler{
         border: none;
@@ -18,7 +26,10 @@ header{
                 text-align: center;
             }
         }
-    
+        h1{
+            position: relative;
+        }
+        
     
 }//Header end
 

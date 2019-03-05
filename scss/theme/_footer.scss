@@ -1,2 +1,40 @@
-
+.footer-part-one{
+        background-color: #EAEAEA;
+       	box-shadow: 0 15px 14px -10px rgba(88,112,148,0.31);
+}
+footer{
+    .fa{
+        display: inline-block;
+        height: 58.6px;
+        width: 58.6px;
+        line-height: 58.6px;
+        text-align: center;
+        color: #E2322B;
+        border-radius: 50%;
+        font-size: 50px;
+        background-color:#FFFFFF;
+    }
+    .btn{
+        height: 47px;
+        width: 221px;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 3px;
+        background-color: #E2322B;
+        color: #FFFFFF!important;
+    }
+    .footer-part-two{
+        background-color: #363739;
+        ul li{
+            text-transform: capitalize;
+            display: inline-block;
+            justify-content:space-between;
+            color: #fff;
+        }
+        a{
+            color: #fff!important;
+        }
+        
+    }
+}//FOOTER END
 
