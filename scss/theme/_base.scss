@@ -6,6 +6,7 @@ html{
 body{
     font-family: $font-ubuntu;
     font-weight: $font-weight-regular;
+    background: radial-gradient(circle, #EFEFEF 0%, #FFFFFF 100%);
 }
 
 img{
@@ -63,43 +64,39 @@ h4{
     display: block;
     margin-top: 10px;
 }
-.red-line-tite{
+.red-line-title{
+    position: relative;
+}
+
+.red-line-title:after{
     content: "";
     height: 3px;
     width: 57px;
     background-color: #E2322B;
     display: block;
     position: absolute;
-    left:45%;
-    top:20%;
+    left:50%;
+    transform: translateX(-50%);
+    top:100%;
 }
 
-.article-titles-space{
-    height: 92px;
-    width: 368px;
-}
-.green-quotation-marks:before{
-    content: "";
-    display: block;
-    color:$green;
-    height: 20px;
-    width: 20px;
-}
-.box-style{
+
+
+.comment-item{
     border-radius: 3px;
     background-color: #FFFFFF;
     box-shadow: 0 15px 14px -10px rgba(88,112,148,0.31);
     padding: 10px 18px;
     position: relative;
 }
-.box-style .fa{
+ .comment-item .fa{
     height: 19.05px;
     width: 23.25px;
     color: $green;
     font-weight: bold;
 }
 
-.box-style:after{
+ .comment-item:after{
     content: "";
     display: block;
     position: absolute;
@@ -116,11 +113,10 @@ h4{
     background-color: #FFFFFF;
     box-shadow: 0 15px 14px -10px rgba(88,112,148,0.31)
 }
-.separate-line:before{
-    margin-top: 30px;
-    width: 368px;
-    height: 2px;
-    content: "";
-    background-color: #EBEBEB;
-    display: block;
+
+
+main{
+    padding-top: 60px;
 }
+
+

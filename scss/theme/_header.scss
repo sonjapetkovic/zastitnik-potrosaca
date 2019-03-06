@@ -6,7 +6,7 @@ header{
     border-bottom: 3px solid #EBEBEB;
     
     .navbar-brand{
-        max-width: 50%;
+        max-width: 150px;
         
     }
     .navbar-nav li:hover,
@@ -19,6 +19,7 @@ header{
     
     .navbar-toggler{
         border: none;
+        padding: 0.25rem !important;
         }
         
         .navbar-nav{
@@ -48,3 +49,17 @@ header{
     
     
 }//Media end
+
+
+@media(min-width:992px){
+    main{
+        padding-top: 110px;
+    }
+    header{
+       .navbar-brand{
+        max-width: 240px;
+        
+    } 
+    }
+    
+}

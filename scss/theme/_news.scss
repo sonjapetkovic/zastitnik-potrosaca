@@ -1,0 +1,18 @@
+
+.news-item{
+    background: #fff;
+    border-radius: 10px;
+}
+.news-item > *{
+    padding: 15px;
+}
+
+.news-item {
+    .news-header{
+        border-top: 1px solid #ccc;
+    }
+    .published{
+        margin-right: 10px;
+        color:#aaa;
+    }
+}
