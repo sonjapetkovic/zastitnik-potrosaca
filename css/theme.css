@@ -13,6 +13,9 @@ h4 {
   color: #464646;
   font-family: 'Helvetica Neue'; }
 
+main {
+  margin-top: 150px; }
+
 .img-holder {
   position: relative;
   background: #ccc url("assets/logo-small.png") no-repeat center center;
@@ -70,7 +73,8 @@ h4 {
   background-color: #FFFFFF;
   box-shadow: 0 15px 14px -10px rgba(88, 112, 148, 0.31);
   padding: 10px 18px;
-  position: relative; }
+  position: relative;
+  height: 110px; }
 
 .box-style .fa {
   height: 19.05px;
@@ -367,6 +371,8 @@ header {
     text-align: center; }
   header h1 {
     position: relative; }
+  header ul li {
+    padding-left: 10px; }
 
 @media (min-width: 325px) {
   header .navbar-nav .nav-link {
@@ -403,5 +409,7 @@ footer .footer-part-two {
     color: #fff; }
   footer .footer-part-two a {
     color: #fff !important; }
+footer .footer-part-two ul li {
+  padding-left: 10px; }
 
 /*# sourceMappingURL=theme.css.map */

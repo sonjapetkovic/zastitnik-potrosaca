@@ -1,6 +1,7 @@
 .footer-part-one{
         background-color: #EAEAEA;
        	box-shadow: 0 15px 14px -10px rgba(88,112,148,0.31);
+        
 }
 footer{
     .fa{
@@ -35,6 +36,9 @@ footer{
             color: #fff!important;
         }
         
+    }
+    .footer-part-two ul li{
+        padding-left: 10px;
     }
 }//FOOTER END
 
