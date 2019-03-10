@@ -5,7 +5,8 @@ html {
 body {
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
-  background: radial-gradient(circle, #EFEFEF 0%, #FFFFFF 100%); }
+  background: radial-gradient(circle, #EFEFEF 0%, #FFFFFF 100%);
+  position: relative; }
 
 img {
   max-width: 100%; }
@@ -346,14 +347,19 @@ main {
 header {
   font-size: 16px;
   color: #363739;
-  border-bottom: 3px solid #EBEBEB; }
+  border-bottom: 3px solid #EBEBEB;
+  transition: 0.5s linear; }
   header .navbar-brand {
     max-width: 150px; }
+  header .navbar-nav li {
+    background: transparent;
+    border-bottom: 4px solid transparent;
+    transition: 0.8s linear; }
   header .navbar-nav li:hover,
   header .navbar-nav li:active {
     background: transparent;
     border-bottom: 4px solid red;
-    transition: 0.5s linear; }
+    transition: 0.8s linear; }
   header .navbar-toggler {
     border: none;
     padding: 0.25rem !important; }
@@ -363,6 +369,8 @@ header {
     position: relative; }
   header ul li {
     padding-left: 10px; }
+  header .header-active {
+    background: rgba(0, 0, 0, 0.5); }
 
 @media (min-width: 325px) {
   header .navbar-nav .nav-link {

@@ -4,16 +4,22 @@ header{
     font-size: 16px;
     color:$gray-900;   
     border-bottom: 3px solid #EBEBEB;
+    transition:0.5s linear;
     
     .navbar-brand{
         max-width: 150px;
         
     }
+    .navbar-nav li{
+        background: transparent;
+        border-bottom: 4px solid transparent;
+        transition: 0.8s linear;
+    }
     .navbar-nav li:hover,
         .navbar-nav li:active{
             background: transparent;
             border-bottom: 4px solid red;
-            transition: 0.5s linear;
+            transition: 0.8s linear;
         }
         
     
@@ -32,6 +38,9 @@ header{
         }
         ul li{
             padding-left: 10px;
+        }
+        .header-active{
+            background: rgba(0,0,0,0.5);
         }
     
 }//Header end
